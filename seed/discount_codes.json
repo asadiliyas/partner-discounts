@@ -1,0 +1,36 @@
+{
+  "codes": [
+    {
+      "code": "KIDS18",
+      "percent_off_bps": 1800,
+      "cap_paise": 80000,
+      "expires_in_days": 14,
+      "partner_share_bps": 7000,
+      "rayy_share_bps": 3000
+    },
+    {
+      "code": "SUPER60",
+      "percent_off_bps": 6000,
+      "cap_paise": 4000,
+      "expires_in_days": 14,
+      "partner_share_bps": 5500,
+      "rayy_share_bps": 4500
+    },
+    {
+      "code": "PAST30",
+      "percent_off_bps": 3000,
+      "cap_paise": 9000,
+      "expires_in_days": -1,
+      "partner_share_bps": 6000,
+      "rayy_share_bps": 4000
+    },
+    {
+      "code": "FIRST5",
+      "percent_off_bps": 500,
+      "cap_paise": 10000,
+      "expires_in_days": 14,
+      "partner_share_bps": 8500,
+      "rayy_share_bps": 1500
+    }
+  ]
+}
