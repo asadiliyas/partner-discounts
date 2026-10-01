@@ -74,11 +74,3 @@
 - **Code expiry comes from the template.** Codes load from JSON with expiry relative to process start, and are cached, so expiry moves on every restart. They need to live in a store with absolute dates.
 - **Race tests are stubbed.** Real concurrency is only covered by the barrier-forced tests and one full-suite run against a single-node replica set, not by load against a real cluster.
 
-## Time
-
-- About 30 minutes of wall-clock time, 30 Sep 23:55 – 1 Oct ~00:25 IST, in one Claude Code session:
-  - ~5 min reading the template
-  - ~10 min on the backend and its tests
-  - ~5 min verifying (mutation checks, real-Mongo run, HTTP smoke test)
-  - ~5 min on the React client
-  - ~5 min on these notes
